@@ -4,7 +4,7 @@ import cv2
 import tensorflow as tf
 import numpy as np
 from keras.preprocessing import image
-
+#arnav
 def predict(img_path):
      labels={0: 'cardboard', 1: 'glass', 2: 'metal', 3: 'paper', 4: 'plastic', 5: 'trash'}
 
